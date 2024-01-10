@@ -6,5 +6,11 @@ console.log(x);
 console.log(y);
 console.log(z);
 
+let number = "100"
+let a = Number(number) //string to nuumber
+console.log(typeof a);
 
-s
+let number2 = "100roshan"
+let b = Number(number2)
+console.log(b);//NaN since an alphanumeric cannot be converted into numeric value
+
